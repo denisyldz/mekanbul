@@ -5,7 +5,25 @@ html
     title= title
     link(rel='stylesheet', href='/bootstrap/css/bootstrap.css')
   body
+    .navbar-default.navbar.navbar-fixed-top 
+      .container 
+        .navbar-header 
+          a.navbar-brand('/') MekanBul
+          button.navbar-toggle(type='button',data-toglle='collapse',data-target='#navbar-main')
+            spain.icon-bar
+            spain.icon-bar
+            spain.icon-bar
+        #navbar-main.navbar-collapse.collapse 
+          ul.nav.navbar-nav 
+            li  
+              a(href='/hakkinda') Hakkında
+  .container           
     block content
+    footer 
+      .col-12 
+        small &copy; Esra Aydoğan 2022
+
+
   script (src='/javascripts/jquery-3.6.1.min.js')
   script (src='/bootstrap/js/bootstrap.min.js')
 
