@@ -3,5 +3,5 @@ const hakkinda=function(req, res, next) {
   };
 
   module.exports={
-    hakkinda
+    hakkinda,
   }
