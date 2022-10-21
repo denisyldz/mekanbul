@@ -31,7 +31,7 @@ const mekanBilgisi=function(req, res, next) {
     res.render('mekanbilgisi', 
     { 
     "baslık": "Mekan Bilgisi",
-    "mekanBaslik":"Starbuck1",
+    "mekanBaslik":"Starbucks",
     "mekanDetay":{
         "ad":"Starbucks",
         "puan":"3",
@@ -40,14 +40,14 @@ const mekanBilgisi=function(req, res, next) {
             {  
                 "gunler":"Pazartesi-Cuma",
                 "acilis":"09.00",
-                "kapaniş":"23.00",
-                "kapalı":"false"
+                "kapanis":"22.00",
+                "kapalı": false
             },
             {  
                 "gunler":"Cumartesi-Pazar",
-                "acilis":"09.00",
-                "kapaniş":"23.00",
-                "kapalı":"false"
+                "acilis":"10.00",
+                "kapanis":"23.00",
+                "kapalı": false
             }
            
         ],
@@ -59,7 +59,7 @@ const mekanBilgisi=function(req, res, next) {
         "yorumlar":[
             {
                 "yorumYapan":"Esra Aydoğan",
-                "yorumMetni":"HARİKAAAA",
+                "yorumMetni":"HARİKA",
                 "tarih":"20 Ekim 2022",
                 "puan":"5"
             },
