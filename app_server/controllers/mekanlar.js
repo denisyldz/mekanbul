@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+
 const anaSayfa=function(req, res, next) {
     res.render('anasayfa', { 
     "başlık" : "Anasayfa",
