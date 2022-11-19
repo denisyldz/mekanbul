@@ -1,4 +1,7 @@
-  1. Mekan ID ile mekan bilgilerini getir :
+   MekanBul REST API Adresleri
+ 
+ 
+ 1. Mekan ID ile mekan bilgilerini getir :
     http://localhost:3001/api/mekanlar/6375d63093acfe60ff437297
   ![mekan](https://user-images.githubusercontent.com/115172638/202674620-1b45bb9f-cae4-429d-96ac-8bac4d65f903.png)
 
