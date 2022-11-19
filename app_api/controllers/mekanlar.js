@@ -1,10 +1,10 @@
 var mongoose=require("mongoose");
-var Mekan=mongoose.model("mekan"); //nesneleri büyük harfle yazarız->Mekan
+var Mekan=mongoose.model("mekan"); 
 const cevapOlustur=function(res,status,content){
     res.status(status).json(content);
 }
 var cevrimler=(function() {
-    var dunyaYariCap=6371; //km
+    var dunyaYariCap=6371; 
     var radyan2Kilometre=function(radyan){
         return parseFloat(radyan*dunyaYariCap);
     };
