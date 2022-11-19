@@ -10,6 +10,7 @@ function kapat(msg,callback){
     callback();
 });
 }
+
 process.on("SIGINT",function(){
     kapat("Uygulama kapatıldı!",function(){
         process.exit(0);
