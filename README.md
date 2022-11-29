@@ -1,8 +1,8 @@
 # API Collections Test
-(C:\Users\esra\Desktop\MekanBul\resimler\ödev.png)
+![test resmi 1](resimler/ödev.png)
 
 # API Mocha Test
-(C:\Users\esra\Desktop\MekanBul\resimler\ödev2.png)
+![test resmi 2](resimler/ödev2.png)
  
  
  # MekanBul REST API adresleri
