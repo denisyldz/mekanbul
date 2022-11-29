@@ -1,8 +1,8 @@
 var mongoose = require( 'mongoose' ); 
 require("./mekansema");
-var dbURI = "mongodb+srv://mekan32:0842@mekanbul.6s0yzws.mongodb.net/mekanbul?retryWrites=true&w=majority" 
+//var dbURI = "mongodb+srv://mekan32:0842@mekanbul.6s0yzws.mongodb.net/mekanbul?retryWrites=true&w=majority" 
 
-//var dbURI = "mongodb://localhost/mekanbul"
+var dbURI = "mongodb://localhost/mekanbul"
 
 mongoose.connect(dbURI); 
 function kapat(msg,callback){

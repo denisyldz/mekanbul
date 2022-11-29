@@ -1,6 +1,6 @@
 const expect = require("chai").expect;
 //var adres = "localhost:3001"; // hocanın verdiğinin aslı
-var adres = "mekanbul.esraaydogan4.repl.co" ;
+var adres = "localhost:3001" ;
 //var adres = "mongodb://localhost/mekanbul";
 const request = require("supertest").agent(adres);
 describe("POST /api/mekanlar", function () {
