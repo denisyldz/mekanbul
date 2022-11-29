@@ -1,4 +1,10 @@
-<<<<<<< HEAD
+# API Collections Test
+(C:\Users\esra\Desktop\MekanBul\resimler\ödev.png)
+
+# API Mocha Test
+(C:\Users\esra\Desktop\MekanBul\resimler\ödev2.png)
+ 
+ 
  # MekanBul REST API adresleri
  
 
@@ -12,7 +18,4 @@
 
 ## 3. (Girilen konum civarındaki mekanları listele)[https://mekanbul.esraaydogan4.repl.co/api/mekanlar?enlem=37.8&boylam=35.4]
   ![konum resmi](https://user-images.githubusercontent.com/115172638/202871580-fcb10356-f059-4032-a4fe-8d73fadbb335.png)
-
-<<<<<<< HEAD
-=======
 
